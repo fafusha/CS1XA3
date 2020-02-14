@@ -14,7 +14,7 @@
 ```
 ./CS1XA3/Project01/project_analyze [OPTION]... [FILE]...
 ```
-Perfoms analysis of the FILEs (the current directory be default).
+Perfoms analysis of the FILEs (the current repository by default).
    
 With possible **OPTION**
 * `-fm, --fixme` lists all files with `#FIXME` in the last line, creates *file.log* at `CS1XA3/Project01/`.
