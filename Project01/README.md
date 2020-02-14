@@ -9,7 +9,7 @@
    ```
    With possible **ARGUMENTS**
 * `-fm|--fixme`: Finds every file in the repositor with `#FIXME` in the last line, creates *file.log* at `CS1XA3/Project01`.
-* `-fsl|--file-size-list`: List all files and corresonding size in descending order.
+* `-fsl|--file-size-list`: List all files in the repository and corresonding size in descending order.
 * `--ftc|--file-type-count` : Prompts user for **EXSTENSION** and returns the number of files with  **EXTENSION** in the repository.
       
 
