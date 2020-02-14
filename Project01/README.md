@@ -8,9 +8,9 @@
    ./CS1XA3/Project01/project_analyze [ARGUMENT]
    ```
    With possible **ARGUMENTS**
-* `-fm|--fixme`: Finds every file in the repositor with `#FIXME` in the last line, creates *file.log* at `CS1XA3/Project01`.
-* `-fsl|--file-size-list`: List all files in the repository and corresonding size in descending order.
-* `--ftc|--file-type-count` : Prompts user for **EXSTENSION** and returns the number of files with  **EXTENSION** in the repository.
+* `-fm, --fixme`: Finds every file in the repositor with `#FIXME` in the last line, creates *file.log* at `CS1XA3/Project01`.
+* `-fsl, --file-size-list`: List all files in the repository and corresonding size in descending order.
+* `--ftc, --file-type-count` : Prompts user for **EXSTENSION** and returns the number of files with  **EXTENSION** in the repository.
       
 
 ## Feature 6.2 **FIXME Log**
@@ -23,5 +23,7 @@
 
 ## Feature 6.5 **File Type Count**
 
-## Custom Feature SomeFeature
+## Custom Feature -a|-all 
+Includes all files like .gitignore and .git etc
+do option only got gitignore do allow only certain files depndeonding on the input
   ...
