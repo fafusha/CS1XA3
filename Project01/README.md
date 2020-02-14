@@ -13,7 +13,7 @@ Perfoms analysis of the FILEs (the current directory be default).
 With possible **OPTION**
 * `-fm, --fixme`: lists all files with `#FIXME` in the last line, creates *file.log* at `CS1XA3/Project01/`.
 * `-fsl, --file-size-list`: list all files and corresonding size in descending order.
-* `--ftc, --file-type-count` : Prompts user for **EXSTENSION** and returns the number of files with  **EXTENSION**.
+* `--ftc, --file-type-count` : prompts user for **EXSTENSION** and returns the number of files with  **EXTENSION**.
       
 
 ## Feature 6.2 **FIXME Log**
