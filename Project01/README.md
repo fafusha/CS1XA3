@@ -28,7 +28,7 @@ With possible **OPTION**
  Reference: some code was taken from: *https://someurl.com*  
 
    
-## Feature 6.5 **File Size List**
+## Feature 6.4 **File Size List**
 
 ## Feature 6.5 **File Type Count**
 
