@@ -1,5 +1,5 @@
 #  CS 1XA3 Project01 - rapopord
-## Usage
+## Installation
    Execute this script from project root with:
    ```bash
    chmod +x CS1XA3/Project01/project_analyze.sh
