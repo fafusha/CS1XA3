@@ -5,7 +5,7 @@
    chmod +x CS1XA3/Project01/project_analyze.sh
   ```
   ```
-   ./CS1XA3/Project01/project_analyze ARGUMENTS
+   ./CS1XA3/Project01/project_analyze [ARGUMENT]
    ```
    With possible **ARGUMENTS**
 * `-fm|--fixme`: Finds every file in the repositor with `#FIXME` in the last line, creates *file.log* at `CS1XA3/Project01`.
