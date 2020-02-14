@@ -1,7 +1,8 @@
 #  CS 1XA3 Project01 - rapopord
 ## Usage
    Execute this script from project root with:
-   ```chmod +x CS1XA3/Project01/project_analyze.sh
+   ```bash
+   chmod +x CS1XA3/Project01/project_analyze.sh
         ./CS1XA3/Project01/project_analyze arg1 arg2 ...
    ```
    With possible arguments
