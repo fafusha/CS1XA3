@@ -1,10 +1,10 @@
 #  CS 1XA3 Project01 - rapopord
 
 ## Installation
-   Copy this repository into desired location with:
+   Copy this repository into desired location with:  
    `git clone https://github.com/fafusha/CS1XA3/`
   
-   Execute this script from the installation location with:
+   Execute this script from the installation location with:  
    `chmod +x CS1XA3/Project01/project_analyze.sh`
  ## Usage
    `./CS1XA3/Project01/project_analyze [OPTION]... [FILE]... `
