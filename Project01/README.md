@@ -11,7 +11,9 @@
    chmod +x CS1XA3/Project01/project_analyze.sh
    ````
  ## Usage
-   `./CS1XA3/Project01/project_analyze [OPTION]... [FILE]... `
+```
+./CS1XA3/Project01/project_analyze [OPTION]... [FILE]...
+```
 Perfoms analysis of the FILEs (the current directory be default).
    
 With possible **OPTION**
