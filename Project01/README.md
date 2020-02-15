@@ -28,7 +28,7 @@ Lists all files with `#FIXME` in the last line, creates *file.log* at `CS1XA3/Pr
  
 ### Example
 ```bash
-CS1XA3/Project01/project_analyze.sh -fm
+./CS1XA3/Project01/project_analyze.sh -fm
 ```
    
 ## Feature 6.4 **File Size List**
@@ -36,7 +36,7 @@ CS1XA3/Project01/project_analyze.sh -fm
 List all files and corresonding size in descending order, divided by subdirectories.
 ### Example
 ```bash
-CS1XA3/Project01/project_analyze.sh -fsl
+./CS1XA3/Project01/project_analyze.sh -fsl
 ```
 ## Feature 6.5 **File Type Count**
 ## About
@@ -44,7 +44,7 @@ Prompts user for extenstion and returns the number of files with extension.
 Extension should not contain any whitespace characters. [Wikipedia](https://en.wikipedia.org/wiki/Filename_extension)
 ### Exmaple
 ```bash
-CS1XA3/Project01/project_analyze.sh -fsl
+./CS1XA3/Project01/project_analyze.sh -fsl
 ```
 ## Custom Feature I Unix Philosphy
 In order to make our program more modular and reusable we need to follow UNIX Philosphy.  
@@ -62,19 +62,19 @@ This features allows user to divide files in the repository in customs groups. E
 ### Example
 Creating custom group tag:
 ```bash
-CS1XA3/Project01/project_analyze.sh -t [TAG]
+./CS1XA3/Project01/project_analyze.sh -t [TAG]
 ```
 Adding file into the group with:
 ```bash
-CS1XA3/Project01/project_analyze.sh -at [TAG] [FILE]...
+./CS1XA3/Project01/project_analyze.sh -at [TAG] [FILE]...
 ```
 Listing all files in the grpoup: 
 ```bash
-CS1XA3/Project01/project_analyze.sh -at [TAG]
+./CS1XA3/Project01/project_analyze.sh -at [TAG]
 ```
 
 Example: removing all files with a tag:
 
 ```bash
-CS1XA3/Project01/project_analyze.sh -at [TAG] | rm
+./CS1XA3/Project01/project_analyze.sh -at [TAG] | rm
 ```
