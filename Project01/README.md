@@ -48,8 +48,8 @@ CS1XA3/Project01/project_analyze.sh -fsl
 ```
 ## Custom Feature I Unix Philosphy: Write programs to work together
 To make this program better with others we need to add more [OPTIONS] common to many bash commands this features include:  
-`-h, --help`: help referfence for options. 
-`-f, --force`: do not raise errors for invalid inputs. 
+`-h, --help`: help referfence for options  
+`-f, --force`: do not raise errors for invalid inputs  
 `-q, --qiet`: display no output    
 and many more...
 Part of this was already implemented in the script input. On the possible arguments to the script is [FILES] 
