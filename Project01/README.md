@@ -40,7 +40,7 @@ CS1XA3/Project01/project_analyze.sh -fsl
 ```
 ## Feature 6.5 **File Type Count**
 ## About
-Prompts user for **EXSTENSION** and returns the number of files with  **EXTENSION**.
+Prompts user for **EXSTENSION** and returns the number of files with  **EXTENSION**.  
 **EXTENSION** should not contain any whitespace characters. [WIKI](https://en.wikipedia.org/wiki/Filename_extension)
 ### Exmaple
 ```bash
