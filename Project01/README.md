@@ -57,10 +57,17 @@ Part of this was already implemented in the script input. On the possible argume
 Refernce: [Wikpidea](https://en.wikipedia.org/wiki/Unix_philosophy)
 
 ## Custom Feature II Dividing Directories in files Into Groups
-This features allows user to divide files in the repository in customs groups. By doing so, user could apply same opertion to all files in the custom group.
+This features allows user to divide files in the repository in customs groups. Each group  is assigned a custom tags. By creating these tags and divding diles into groups user could apply same opertion to all files in the custom group.
 ### Example
-First we need to create a custom group tag:
+Creating custom group tag:
+```bash
+CS1XA3/Project01/project_analyze.sh -t [TAG]
 ```
-bash
-CS1XA3/Project01/project_analyze.sh -t 'Tag'
+Adding file into the group with:
+```bash
+CS1XA3/Project01/project_analyze.sh -at [TAG] [FIlES]
+```
+Listing all files in the grpoup: 
+```bash
+CS1XA3/Project01/project_analyze.sh -at [TAG]
 ```
