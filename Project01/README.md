@@ -12,7 +12,7 @@
    ````
  ## Usage
 ```
-./CS1XA3/Project01/project_analyze [OPTION]... [FILE]...
+./CS1XA3/Project01/project_analyze.sh [OPTION]... [FILE]...
 ```
 Perfoms analysis of the FILEs (current repository by default).
    
