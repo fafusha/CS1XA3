@@ -46,12 +46,12 @@ Extension should not contain any whitespace characters. [Wikipedia](https://en.w
 ```bash
 CS1XA3/Project01/project_analyze.sh -fsl
 ```
-## Custom Feature I Unix Philosphy:
-C
+## Custom Feature I Unix Philosphy
+In order to make out programe more modular and reusable we need to follow UNIX Philosphy.  
 One of the UNIX paradigms is :"Write programs to work together".  
-To make this program better with others we need to add more [OPTIONS] common to many other bash commands. These options include, but are not limited to:
+To make this program better with others we need to add more `[OPTIONS]` common to many other bash commands. These options include, but are not limited to:  
 `-h, --help`: help referfence for options  
 `-f, --force`: do not raise errors for invalid inputs  
 `-q, --qiet`: display no output     
-Part of this was already implemented in the script input. On the possible arguments to the script is [FILES]. It allows the user to specify the files on which script should operate and does not limit usability of the script to a single directory.  
+Part of this was already implemented in the script input. On the possible arguments to the script is `[FILES]`. It allows the user to specify the files on which script should operate and does not limit usability of the script to a single directory.  
 Refernce: [Wikpidea](https://en.wikipedia.org/wiki/Unix_philosophy)
