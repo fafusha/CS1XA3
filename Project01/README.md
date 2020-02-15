@@ -58,6 +58,7 @@ Refernce: [Wikpidea](https://en.wikipedia.org/wiki/Unix_philosophy)
 
 ## Custom Feature II Dividing Directories in files Into Groups
 This features allows user to divide files in the repository in customs groups. Each group  is assigned a custom tags. By creating these tags and divding diles into groups user could apply same opertion to all files in the custom group.
+
 ### Example
 Creating custom group tag:
 ```bash
@@ -65,9 +66,15 @@ CS1XA3/Project01/project_analyze.sh -t [TAG]
 ```
 Adding file into the group with:
 ```bash
-CS1XA3/Project01/project_analyze.sh -at [TAG] [FIlES]
+CS1XA3/Project01/project_analyze.sh -at [TAG] [FILE]...
 ```
 Listing all files in the grpoup: 
 ```bash
 CS1XA3/Project01/project_analyze.sh -at [TAG]
+```
+
+Example: removing all files with a tag:
+
+```bash
+CS1XA3/Project01/project_analyze.sh -at [TAG] | rm
 ```
