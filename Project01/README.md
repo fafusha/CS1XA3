@@ -52,5 +52,5 @@ To make this program better with others we need to add more [OPTIONS] common to 
 `-f, --force`: do not raise errors for invalid inputs  
 `-q, --qiet`: display no output    
 and many more...  
-Part of this was already implemented in the script input. On the possible arguments to the script is [FILES]. It allows the user to specify the files on which script should operate and does not limit usability of the script to a single directory.
+Part of this was already implemented in the script input. On the possible arguments to the script is [FILES]. It allows the user to specify the files on which script should operate and does not limit usability of the script to a single directory.  
 Refernce: [Wikpidea](https://en.wikipedia.org/wiki/Unix_philosophy)
