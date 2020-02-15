@@ -40,13 +40,11 @@ CS1XA3/Project01/project_analyze.sh -fsl
 ```
 ## Feature 6.5 **File Type Count**
 ## About
-Prompts user for **EXSTENSION** and returns the number of files with  **EXTENSION**.  
-**EXTENSION** should not contain any whitespace characters. [WIKI](https://en.wikipedia.org/wiki/Filename_extension)
+Prompts user for extenstion and returns the number of files with extension.  
+Extension should not contain any whitespace characters. [Wikipedia](https://en.wikipedia.org/wiki/Filename_extension)
 ### Exmaple
 ```bash
 CS1XA3/Project01/project_analyze.sh -fsl
 ```
-## Custom Feature -a|-all 
-Includes all files like .gitignore and .git etc
-do option only got gitignore do allow only certain files depndeonding on the input
-  ...
+## Custom Feature Unix Philosphy
+Refernce: [Wikpidea](https://en.wikipedia.org/wiki/Unix_philosophy)
