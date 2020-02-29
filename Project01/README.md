@@ -134,3 +134,6 @@ It stores file metedat in `.tag` folder in the main repository folder.
 # removing all files in a tag group:
 ./CS1XA3/Project01/project_analyze.sh -at [TAG] | xargs rm
 ```
+
+## Reference
+Learning the bash Shell, 3rd Editition by Cameron Newham as well as lecture notes were used as referene
