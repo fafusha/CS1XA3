@@ -17,18 +17,24 @@ CS1XA3/Project01/project_analyze.sh [OPTION]... [FILE]...
 Perfoms analysis of the FILEs (current CS1XA3 repository by default).
    
 With possible **OPTION**  
+
 **Core Options**  
+
 * `-fm, --fixme` lists all files with `#FIXME` in the last line, creates *file.log* at `CS1XA3/Project01/`.
 * `-fsl, --file-size-list` list all files and corresonding size in descending order.
 * `-ftc, --file-type-count` prompts user for **EXSTENSION** and returns the number of files with  **EXTENSION**.
 * `-bdr, --backup-delete-resote` propmts user for options and creates back or restores from backup
 * `-clm, --checkout-latest-metde` autmoatically finds latests commit with `merge` and git checkout it
 * `-ft, --find`
+
 **Custom Feature I Options**  
+
 * `-o, --output` changes the output directory, by default `CS1XA3/Project01/`
 * `-h, --help` help
 * `-f, --force` forces user input *DANGEROUS*
+
 **Custom Feature II Options**
+
 * `-t| --tag` creates a tag for a group
 * `-at| --add-tag` adds files to the tag group
 * `-lt| --list-tag` lists all files in a tag group
