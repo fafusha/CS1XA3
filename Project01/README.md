@@ -88,34 +88,47 @@ Prompts user to *Backup* or *Restore* .tmp files
 ```
 
 ## Custom Feature I The Unix Way
+### About
 In order to make our program more modular and reusable we need to follow UNIX Philosphy.  
 One of the UNIX paradigms is :"Write programs to work together".  
-To make this program better with other scripts we need to add more `[OPTIONS]` common to many other bash commands. These options include, but are not limited to:  
+To make this program better with other scripts we need to add more `[OPTIONS]` common to many other bash commands.
+
+These options are:  
 `-h, --help`: help referfence for options  
 `-f, --force`: do not raise errors for invalid inputs, let all inputs work
-`-o, --output`: display no output
-Part of this was already implemented in the script input. On the possible arguments to the script is `[FILES]`. It allows the user to specify the files on which script should operate and does not limit usability of the script to a single directory.  
+`-o, --output`: specificy output directory
+
+Also, one the possible arguments to the script is `[FILES]`. It allows the user to specify the files on which script should operate and does not limit usability of the script to a single directory.  
 Refernce: [Wikpidea](https://en.wikipedia.org/wiki/Unix_philosophy)
+### Example
+```bash
+./CS1XA3/Project01/project_analyze.sh -h
+
+./CS1XA3/Project01/project_analyze.sh -f -bdr
+
+./CS1XA3/Project01/project_analyze.sh -o ~/dir -bdr
+```
 
 ## Custom Feature II Dividing  Files Into Tag Groups
-This features allows user to divide files in the repository in customs groups. Each group  is assigned a custom tags. By creating these tags and assogning files to groups user could apply same opertion to all files in the custom group.
+### About
+This features allows user to divide files in the repository in customs tag groups. Each tag group is assigned a custom name. By creating these tag group and assogning files to them user could apply same opertion to all files in the custom tag group.
+It stores file metedat in `.tag` folder in the main repository folder.
 
 ### Example
-Creating custom group tag:
+
 ```bash
+# creating custom group tag:
 ./CS1XA3/Project01/project_analyze.sh -t [TAG]
-```
-Adding file into the group with:
-```bash
+
+# adding file into the tag group with
 ./CS1XA3/Project01/project_analyze.sh -at [TAG] [FILE]...
-```
-Listing all files in the grpoup: 
-```bash
-./CS1XA3/Project01/project_analyze.sh -at [TAG]
-```
 
-Example: removing all files with a tag:
+# listing all files in the tag group
+./CS1XA3/Project01/project_analyze.sh -lt [TAG]
 
-```bash
-./CS1XA3/Project01/project_analyze.sh -at [TAG] | rm
+# delete tag group
+./CS1XA3/Project01/project_analyze.sh -rt [TAG]
+
+# removing all files in a tag group:
+./CS1XA3/Project01/project_analyze.sh -at [TAG] | xargs rm
 ```
