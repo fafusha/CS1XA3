@@ -40,7 +40,7 @@ With possible **OPTION**
 * `-lt| --list-tag` lists all files in a tag group
 * `-rt |--remove-tag` removes tag grooup
 
-## Feature 6.2 **FIXME Log**
+## Feature 6.2 FIXME Log
 ### About
 Lists all files with `#FIXME` in the last line, creates *file.log* at `CS1XA3/Project01/`, which contains relative filepaths to mainrepository folder.
  
@@ -48,34 +48,56 @@ Lists all files with `#FIXME` in the last line, creates *file.log* at `CS1XA3/Pr
 ```bash
 ./CS1XA3/Project01/project_analyze.sh -fm
 ```
- ## Feature 6.3
+ ## Feature 6.3 Checkout Latest Merge
+ ### About
+ Find the most recent commit with the word `merge` (case insensitive) in the commit message and automatically moves to that commit
+ ### Example
+```bash
+./CS1XA3/Project01/project_analyze.sh -clm
+```
  
-## Feature 6.4 **File Size List**
+## Feature 6.4 File Size List
 ### About
 List all files and corresonding size in descending order, divided by subdirectories.
 ### Example
 ```bash
 ./CS1XA3/Project01/project_analyze.sh -fsl
 ```
-## Feature 6.5 **File Type Count**
-## About
+## Feature 6.5 File Type Count
+### About
 Prompts user for extenstion and returns the number of files with extension.  
 Extension should not contain any whitespace characters. [Wikipedia](https://en.wikipedia.org/wiki/Filename_extension)
 ### Exmaple
 ```bash
 ./CS1XA3/Project01/project_analyze.sh -fsl
 ```
-## Custom Feature I Unix Philosphy
+## Feature 6.6 Find Tag
+### About
+For each python file in the repo finds all lines that begin with a comment and contain user prompted tag
+### Example
+```bash
+./CS1XA3/Project01/project_analyze.sh -ft
+```
+
+## Feature 6.8 Backup and Delete / Restore
+### About
+Prompts user to *Backup* or *Restore* .tmp files
+### Example
+```bash
+./CS1XA3/Project01/project_analyze.sh -bdr
+```
+
+## Custom Feature I The Unix Way
 In order to make our program more modular and reusable we need to follow UNIX Philosphy.  
 One of the UNIX paradigms is :"Write programs to work together".  
 To make this program better with other scripts we need to add more `[OPTIONS]` common to many other bash commands. These options include, but are not limited to:  
 `-h, --help`: help referfence for options  
 `-f, --force`: do not raise errors for invalid inputs, let all inputs work
-`-o, --output`: display no output     
+`-o, --output`: display no output
 Part of this was already implemented in the script input. On the possible arguments to the script is `[FILES]`. It allows the user to specify the files on which script should operate and does not limit usability of the script to a single directory.  
 Refernce: [Wikpidea](https://en.wikipedia.org/wiki/Unix_philosophy)
 
-## Custom Feature II Dividing Directories in files Into Groups
+## Custom Feature II Dividing  Files Into Tag Groups
 This features allows user to divide files in the repository in customs groups. Each group  is assigned a custom tags. By creating these tags and assogning files to groups user could apply same opertion to all files in the custom group.
 
 ### Example
