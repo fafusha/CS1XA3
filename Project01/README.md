@@ -94,9 +94,9 @@ One of the UNIX paradigms is :"Write programs to work together".
 To make this program better with other scripts we need to add more `[OPTIONS]` common to many other bash commands.
 
 These options are:  
-`-h, --help`: help referfence for options  
-`-f, --force`: do not raise errors for invalid inputs, let all inputs work
-`-o, --output`: specificy output directory
+- `-h, --help`: help referfence for options  
+- `-f, --force`: do not raise errors for invalid inputs, let all inputs work
+- `-o, --output`: specificy output directory
 
 Also, one the possible arguments to the script is `[FILES]`. It allows the user to specify the files on which script should operate and does not limit usability of the script to a single directory.  
 Refernce: [Wikpidea](https://en.wikipedia.org/wiki/Unix_philosophy)
