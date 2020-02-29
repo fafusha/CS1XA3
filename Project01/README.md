@@ -95,11 +95,13 @@ To make this program better with other scripts we need to add more `[OPTIONS]` c
 
 These options are:  
 - `-h, --help`: help referfence for options  
-- `-f, --force`: do not raise errors for invalid inputs, let all inputs work
+- `-f, --force`: do not raise errors for invalid inputs, let all inputs works
 - `-o, --output`: specificy output directory
 
 Also, one the possible arguments to the script is `[FILES]`. It allows the user to specify the files on which script should operate and does not limit usability of the script to a single directory.  
 Refernce: [Wikpidea](https://en.wikipedia.org/wiki/Unix_philosophy)
+
+**IMPT** `-f| --force` is **DANGEROUS** since it froces script to bypass all the tests which determine corretness of the user input.
 ### Example
 ```bash
 ./CS1XA3/Project01/project_analyze.sh -h
