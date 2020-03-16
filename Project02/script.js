@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 	document.getElementById("b1").onclick = function {
 		var fnt = fonts[Math.floor(Math.random() * fonts.length)]
-		document.getElementsByTagName("body").style.font-family=fnt
+		document.getElementsByTagName("body").style.fontFamily = fnt
 	}
 
 });
