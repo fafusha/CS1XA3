@@ -16,5 +16,4 @@ https://www.w3schools.com/jquery/jquery_slide.asp
 
 The button randomizes font in the webpage. 
 
-### Random Font Button
 
