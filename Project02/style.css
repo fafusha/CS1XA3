@@ -1,0 +1,25 @@
+body {
+		font-size:150%;
+}
+
+.title {
+	padding: 5px;
+	text-align: center;
+	background-color: silver;
+	font-family: "Lucida Console", Monaco, monospace;
+	border: solid 1px darkgrey;
+	font-size:175%;
+
+}
+
+
+.pnl{
+	background-color: gainsboro;
+	padding: 10px;
+}
+
+
+.style1{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size:175%;
+}
