@@ -11,7 +11,11 @@ In order to avoid cluttering the main content of the CV is dived into four secti
 
 Extra details about Technical Skills are also contined within dorpdown panels. In order to access them click the language of interest. Note that not all languages contain extra details.
 
-This feature was implemented with JQuerry. 
+This feature was implemented with JQuerry.
+
+**Reference:**
+Some chunk of code were taken and altered from:
+https://www.w3schools.com/jquery/jquery_slide.asp
 
 ### Run Away Photo
 
@@ -23,7 +27,9 @@ This feature was implemented with JQuerry and JavaScript.
 
 The webpage has two differnt themes: Dark Mode and Light Mode. You can toggle betwenn the two by clicking the button on the top of the webpage. 
 
-This feature was implemented awith JQuerry and JavaScript. 
+This feature was implemented awith JQuerry and JavaScript.
+
+Reference:
 
 
  
