@@ -18,7 +18,7 @@ This feature was implemented with JQuerry.
 Some chunk of code were taken and altered from:
 https://www.w3schools.com/jquery/jquery_slide.asp
 
-### Run Away Photo
+### Runaway Photo
 
 There is an easter egg on the webpage. If you however you mouse over my picture, it will run away from you in radnom direction. :)
 
