@@ -1,0 +1,36 @@
+body {
+	font-size:150%;
+	background-color: black;
+	color: white;
+}
+.section{
+	padding:5px;
+}
+
+/* Sectoin Title */
+.ttl {
+	padding: 5px;
+	text-align: center;
+	background-color: #3f3f3f;
+	font-family: "Lucida Console", Monaco, monospace;
+	border: solid 2px #565656;
+	font-size:175%;
+
+}
+
+/* Sectoin Panel */
+.pnl{
+	background-color: #232323;
+	padding: 10px;
+
+}
+
+/* Sidebar Style */
+.style1{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size:175%;
+}
+
+#b1{
+	text-align: center;
+}
