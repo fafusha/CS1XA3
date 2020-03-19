@@ -14,6 +14,7 @@ Extra details about Technical Skills are also contined within dorpdown panels. I
 This feature was implemented with JQuerry.
 
 **Reference:**
+
 Some chunk of code were taken and altered from:
 https://www.w3schools.com/jquery/jquery_slide.asp
 
@@ -28,8 +29,6 @@ This feature was implemented with JQuerry and JavaScript.
 The webpage has two differnt themes: Dark Mode and Light Mode. You can toggle betwenn the two by clicking the button on the top of the webpage. 
 
 This feature was implemented awith JQuerry and JavaScript.
-
-Reference:
 
 
  
