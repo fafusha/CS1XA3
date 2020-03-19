@@ -5,7 +5,7 @@
  
 ## Custom Javascript Code
 
-### Drop down Sections
+### Drop Down Sections
 
 In order to avoid cluttering the main content of the CV is dived into four sections as follows: Education, Extracurricular Activities, Projects and More Info. Contenet of these sections is contained within dropdown panels, which can be toggled by clicking the title.
 
@@ -13,7 +13,7 @@ Extra details about Technical Skills are also contined within dorpdown panels. I
 
 This feature was implemented with JQuerry.
 
-**Reference:**
+**Reference:**  
 
 Some chunk of code were taken and altered from:
 https://www.w3schools.com/jquery/jquery_slide.asp
