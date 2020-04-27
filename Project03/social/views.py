@@ -131,7 +131,6 @@ def people_view(request):
         out_people = not_friends[0:ppl_disp]
         # TODO Objective 5: create a list of all friend requests to current user
         friend_requests =  models.FriendRequest.objects.filter(to_user=user_info)
-        print(friend_requests)
         context = { 'user_info' : user_info,
                     'out_people' : out_people,
                     'friend_requests' : friend_requests }
