@@ -41,6 +41,7 @@
                         <label for="interests">Interests:</label>
                         <input type="text" name="interests" placeHolder="Interests">
                         <br>
+                        <p> Separete interest with commas, if you wish to remove an interest, enter it again </p>
                         <input type="submit" value="Save" />
                       </form>
                 </div>
